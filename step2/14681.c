@@ -6,13 +6,13 @@ int main(void)
     scanf("%d", &x);
     scanf("%d", &y);
     if (x > 0 && y > 0) {
-        printf("1\n");
+        printf("1");
     } else if (x < 0 && y > 0) {
-        printf("2\n");
+        printf("2");
     } else if (x < 0 && y < 0) {
-        printf("3\n");
+        printf("3");
     } else if (x > 0 && y < 0) {
-        printf("4\n");
+        printf("4");
     } else {
         return 0;
     }
